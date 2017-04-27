@@ -7,23 +7,21 @@
     tools:context="com.adampasternack.demoapp.MainActivity">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="114dp"
-        tools:layout_editor_absoluteY="16dp" />
-
-    <TextView
         android:id="@+id/helloAdamTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello Adam!"
+        android:layout_width="365dp"
+        android:layout_height="66dp"
+        android:background="#6aff00"
+        android:gravity="center"
+        android:text="My Great App"
+        android:textAppearance="@android:style/TextAppearance.Material.Menu"
+        android:textColor="#3f3e3e"
+        android:textSize="46sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintHorizontal_bias="0.514"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.027" />
+        app:layout_constraintVertical_bias="0.029"
+        tools:layout_editor_absoluteX="29dp" />
 
 </android.support.constraint.ConstraintLayout>
