@@ -9,7 +9,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void clickFunction(View view) {
 
-        Log.i("Info", "Button Pressed");
+        Log.i("Info", "Button Pressed Mate!");
 
 
     }
